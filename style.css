@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Merriweather&family=Noto+Sans&family=Poppins:wght@500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&display=swap');
+
+/* common style start */
+/* common style start */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.container{
+    min-height: 100vh;
+    background-color: #E5E5FD;
+    border: 8px solid #1D1E4C
+}
+.content{
+    margin: 0 auto;
+    width: 65%;
+    
+}
+
+/* <!-- top section start -->
+<!-- top section start --> */
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 113px;
+
+}
+.img-container img{
+    max-width: 392px;
+    height: 392px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.name-dob h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 20px;
+    color: #1d1e4c;
+    margin-bottom: 25px;
+}
+.name-dob h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: end;
+    margin-top: 6px;
+   
+}
+
+/* Mid section start */
+/* Mid section start */
+
+.mid-section{
+    margin-top: 113px;
+}
+
+.mid-section h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 20px;
+    padding-bottom: 8px;
+}
+.mid-section p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: #000000;
+    text-align: justify;
+}
+
+/* <!-- last section start -->
+<!-- last section start --> */
+
+.last-section{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.last-section ul{
+    margin-left: 18px;
+}
+.last-section > ul > li{
+    margin-top: 20px;
+}
+
+
+
+/* footer style start */
+/* footer style start */
+
+footer{
+    margin: 50px 0;
+}
+footer > p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: end;
+
+}
+footer > p > a{
+    text-decoration: none;
+    column-rule: blue;
+}
+
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .container{
+        width: 100%;
+    }
+    
+  }
+
+    /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .container{
+        width: 100%;
+    }
+    
+  }
